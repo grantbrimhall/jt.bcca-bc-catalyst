@@ -1,0 +1,44 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // High volume 2
+            "name": "DEV23",
+            "request": "launch",
+            "type": "al",
+            "tenant": "b27c140a-7096-460a-8250-983234ed7858",
+            "environmentType": "Sandbox",
+            "environmentName": "Sandbox",
+            "startupObjectId": 89,  // 89: Job List; 7332: Whse Receipts; 9307: PO List
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+            // ,"schemaUpdateMode": "ForceSync"
+        },
+        {
+            // FCHC
+            "name": "DEV",
+            "request": "launch",
+            "type": "al",
+            "tenant": "1598ee9e-acc8-4609-8c8d-350a706c3b65",
+            "environmentType": "Sandbox",
+            "environmentName": "Dev_100923",
+            "startupObjectId": 89,  // 89: Job List; 7332: Whse Receipts; 9307: PO List
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+            // ,"schemaUpdateMode": "ForceSync"
+        }
+    ]
+}
+ 
+//   {
+//     "id":  "7c5c5f4d-69cd-406a-bc9a-57741154ce67",
+//     "name":  "Abakion Go Launcher",
+//     "publisher":  "Abakion",
+//     "version":  "22.0.0.0"          
+//   }

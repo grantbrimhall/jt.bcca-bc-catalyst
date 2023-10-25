@@ -1,0 +1,35 @@
+{
+  "id": "7d266cbc-be15-4a64-b7f4-38698a40454b",
+  "name": "Catalyst for Business Central",
+  "publisher": "JourneyTEAM, LLC",
+  "version": "23.0.0.2",
+  "brief": "Specially designed for Microsoft Dynamics Customers to catalyze their deployments with import templates and best practice setup pre-configured.",
+  "description": "Specially designed for Microsoft Dynamics Customers to catalyze their deployments with import templates and best practice setup pre-configured.",
+  "privacyStatement": "https://www.journeyteam.com/terms",
+  "EULA": "https://www.journeyteam.com/terms",
+  "help": "https://www.journeyteam.com/support",
+  "contextSensitiveHelpUrl": "https://www.journeyteam.com/support",
+  "url": "https://www.journeyteam.com/support",
+  "applicationInsightsConnectionString": "InstrumentationKey=6075a7f8-f378-46a1-9c9c-17003dfa1176;IngestionEndpoint=https://eastus-8.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus.livediagnostics.monitor.azure.com/",
+  "logo": "JTlogo.png",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "23.0.0.0",
+  "idRanges": [
+    {
+      "from": 71484575,
+      "to": 71484599
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": false,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "runtime": "12.0",
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile"
+  ]
+}
